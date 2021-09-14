@@ -1,0 +1,145 @@
+body {
+    font-family: Andale Mono, monospace;
+    min-height: 400px;
+    background-image: url('');
+    background-color: #28a8a6;
+    background-size: 80vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  input:focus, input {
+      box-shadow: 0 0 0 0;
+      border: 0 none;
+      outline: 0;
+  } 
+  ::selection {
+      color: white;
+      background: #9d4270;
+    }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color:#e0b1c7;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  form {
+    text-align: center;
+  }
+  .name {
+    color: #ebebeb;
+  } 
+  input {
+    border: solid 1px grey;
+    border-radius: 5px;
+  }
+  input:focus {
+    border: solid pink;
+    box-shadow: 1px 1px 13px white;
+  }
+  input[type="number"] {
+    width: 100px;
+  }
+  button {
+    border: solid #e0b1c7;
+    border-radius: 5px;
+    padding: 5px 6px;
+    background: #e0b1c7;
+    color: white;
+    font-weight: bold;
+  }
+  button:hover{
+    background: #9d4270;
+    border: solid #9d4270;
+  }
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }body {
+  font-family: Andale Mono, monospace;
+  min-height: 400px;
+  background-image: url('');
+  background-color: #28a8a6;
+  background-size: 80vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+input:focus, input {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+::selection {
+    color: white;
+    background: #9d4270;
+  }
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color:#e0b1c7;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+form {
+  text-align: center;
+}
+.name {
+  color: #ebebeb;
+} 
+input {
+  border: solid 1px grey;
+  border-radius: 5px;
+}
+input:focus {
+  border: solid pink;
+  box-shadow: 1px 1px 13px white;
+}
+input[type="number"] {
+  width: 100px;
+}
+button {
+  border: solid #e0b1c7;
+  border-radius: 5px;
+  padding: 5px 6px;
+  background: #e0b1c7;
+  color: white;
+  font-weight: bold;
+}
+button:hover{
+  background: #9d4270;
+  border: solid #9d4270;
+}
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
