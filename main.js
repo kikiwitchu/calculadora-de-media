@@ -21,12 +21,13 @@ function calcular() {
             notaQuartoBimestre) /
         4;
 
-    var notaFixada = notaFinal.toFixed(2);
+    var notaFixada = notaFinal.toFixed(1);
 
 
     if (notaFixada >= 6) {
-        result.innerHTML = "Resultado: Parabéns, " + nome + ", você foi aprovada! O resultado foi " + notaFixada;
-    } else result.innerHTML = "Resultado: Que pena, " + nome + ", você foi reprovada! O resultado foi " + notaFixada;
+        result.innerHTML = "Resultado: Parabéns, " + nome + ",<br> você foi aprovada! <br>O resultado foi " + notaFixada + ". ✨";
+    }
+    else result.innerHTML = "Resultado: Que pena, " + nome + ", <br>você foi reprovada! <br>O resultado foi " + notaFixada + ". 💔";
 
     document.getElementById("form").addEventListener("click", function (event) {
         event.preventDefault();
