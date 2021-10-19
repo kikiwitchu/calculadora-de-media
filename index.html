@@ -1,54 +1,59 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Calculadora de Média</title>
-    <meta name='viewport' lang="pt" content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
+    <meta
+      name="viewport"
+      lang="pt"
+      content="width=device-width, initial-scale=1"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+  </head>
 
-<body>
-
+  <body>
     <div class="container">
-        <h1 class="page-title">
-            Calculadora de média</h1>
-        <p class="page-subtitle">
-            Descubra sua média de notas!
+      <h1 class="page-title">Calculadora de média</h1>
+      <p class="page-subtitle">
+        Adicione quatro notas para descobrir sua média
+      </p>
+      <p class="page-logo">imersão <span>dev_</span></p>
+
+      <form id="form">
+        <p class="name">
+          Nome:
+          <input type="text" id="nome" required />
         </p>
-        <p class="page-logo">imersão <span>dev_</span></p>
-        <img id="neptune" src="./img/neptune.png" alt="Sailor Neptune">
-        <form id="form">
-            <p class="name">Nome:
-                <input type="text" id="nome" required>
-            </p>
-            <section>
-                <p class="name">Notas:&ensp;</p>
-                <p>
-                    <input type="number" min="0" max="10" id="notaPrimeiroBimestre">
-                </p>
-                <p>
-                    <input type="number" min="0" max="10" id="notaSegundoBimestre">
-                </p>
-                <p>
-                    <input type="number" min="0" max="10" id="notaTerceiroBimestre">
-                </p>
-                <p>
-                    <input type="number" min="0" max="10" id="notaQuartoBimestre">
-                </p>
-            </section>
-            <button onclick="calcular()">Calcular</button>
+        <section>
+          <p class="name">Notas:&ensp;</p>
+          <p>
+            <input type="number" min="0" max="10" id="notaPrimeiroBimestre" />
+          </p>
+          <p>
+            <input type="number" min="0" max="10" id="notaSegundoBimestre" />
+          </p>
+          <p>
+            <input type="number" min="0" max="10" id="notaTerceiroBimestre" />
+          </p>
+          <p>
+            <input type="number" min="0" max="10" id="notaQuartoBimestre" />
+          </p>
+        </section>
+        <button onclick="calcular()">Calcular</button>
 
-            <p class="name" id="result"> </p>
-        </form>
-
+        <p class="name" id="result"></p>
+      </form>
     </div>
 
     <a href="https://alura.com.br/" target="_blank">
-        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      <img
+        src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+        alt=""
+        class="alura-logo"
+      />
     </a>
-</body>
-
+    <img id="neptune" src="./img/neptune.png" alt="Sailor Neptune" />
+  </body>
 </html>
